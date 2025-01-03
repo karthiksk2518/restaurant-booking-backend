@@ -5,7 +5,7 @@ const bookingSchema = new mongoose.Schema({
     contact: String,
     date: Date,
     guests: Number,
-    endTime: Date, // New field to track booking end time
+    endTime: Date, 
 });
 
 module.exports = mongoose.model('Booking', bookingSchema);
